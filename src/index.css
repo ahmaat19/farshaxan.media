@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+:root {
+  --primary-color: #a8518f;
+  --secondary-color: #fdce07;
+  --dark-color: #1e1e1e;
+}
+
+body {
+  background: var(--dark-color) !important;
+  color: var(--secondary-color) !important;
+
+  height: 100vh;
+}
+.header .nav-link {
+  color: var(--primary-color) !important;
+}
+.header .nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+.navbar-toggler-icon {
+  background-image: url('./images/menu.png');
+}
+.navbar-toggler {
+  box-shadow: 1px 1px var(--primary-color) !important;
+}
+.navbar-nav {
+  text-align: end !important;
+}
+.text-primary {
+  color: var(--primary-color) !important;
+}
+.nav-link {
+  transition: 0.5s ease-in-out;
+}
+.nav-link:hover {
+  margin-top: -5px;
+  position: relative;
+  content: '';
+  border-top: 1px var(--primary-color) solid;
+}
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+.header .btn-primary {
+  background: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.header .btn-primary:hover {
+  margin-top: -5px;
+}
+.hero {
+  height: 90vh;
+}
+.hero button {
+  background: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.hero button:hover {
+  letter-spacing: 3px;
+}
+
+.title {
+  font-family: 'Rock Salt', cursive !important;
+  background-image: url('./images/title.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
