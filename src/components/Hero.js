@@ -3,7 +3,7 @@ import { FaArrowCircleDown } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <div className='d-flex justify-content-center align-items-center  py-5 container'>
+    <div className='d-flex justify-content-center align-items-center hero py-5 my-4 container'>
       <div className='row '>
         <div className='col-md-6 col-12 my-auto'>
           <h1 class='display-1 fw-bold'>Is Sheeg Aan Ku Shaacinnee</h1>

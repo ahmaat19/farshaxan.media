@@ -1,13 +1,17 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
-import OurWork from './components/OurWork'
+import Production from './components/Production'
+import Service from './components/Service'
+import Work from './components/Work'
 
 function App() {
   return (
     <div className='App'>
       <Header />
       <Hero />
-      <OurWork />
+      <Work />
+      <Service />
+      <Production />
     </div>
   )
 }

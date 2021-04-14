@@ -4,9 +4,9 @@ import aragsan from '../images/aragsan.png'
 import salsabiil from '../images/salsabiil.png'
 import samiira from '../images/samiira.png'
 
-const OurWork = () => {
+const Work = () => {
   return (
-    <div className='ourWork py-5 container' id='our-work'>
+    <div className='ourWork py-5 my-5 container' id='our-work'>
       <h1 class='display1 title'>Our Clients</h1>
       <p className='text-primary text-center pt-3'>
         Meet our top clients around the world
@@ -33,4 +33,4 @@ const OurWork = () => {
   )
 }
 
-export default OurWork
+export default Work

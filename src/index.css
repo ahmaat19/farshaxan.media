@@ -12,6 +12,9 @@ body {
 
   height: 100vh;
 }
+.navbar {
+  background: #1e1e1ed0 !important;
+}
 .header .nav-link {
   color: var(--primary-color) !important;
 }
@@ -74,4 +77,20 @@ body {
 }
 .ourWork img:hover {
   transform: rotateX(360deg);
+}
+
+.ourService .card {
+  transition: 0.5s ease-in-out;
+}
+.ourService .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1rem 3rem var(--primary-color) !important;
+}
+.ourProduction .card {
+  background-color: var(--primary-color);
+  transition: 0.5s ease-in-out;
+}
+.ourProduction .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1rem 3rem var(--secondary-color) !important;
 }
