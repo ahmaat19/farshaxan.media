@@ -51,9 +51,7 @@ body {
 .header .btn-primary:hover {
   margin-top: -5px;
 }
-.hero {
-  height: 90vh;
-}
+
 .hero button {
   background: var(--primary-color) !important;
   color: var(--secondary-color) !important;
@@ -70,4 +68,10 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
+}
+.ourWork img {
+  transition: 0.5s ease-in-out;
+}
+.ourWork img:hover {
+  transform: rotateX(360deg);
 }
