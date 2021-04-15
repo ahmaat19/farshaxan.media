@@ -4,7 +4,7 @@ import aragsan from '../images/aragsan.png'
 import salsabiil from '../images/salsabiil.png'
 import samiira from '../images/samiira.png'
 
-const Work = () => {
+const Client = () => {
   return (
     <div className='ourWork py-5 my-5 container' id='our-work'>
       <h1 class='display1 title'>Our Clients</h1>
@@ -33,4 +33,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Client

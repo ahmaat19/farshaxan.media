@@ -9,9 +9,9 @@
 body {
   background: var(--dark-color) !important;
   color: var(--secondary-color) !important;
-
   height: 100vh;
 }
+
 .navbar {
   background: #1e1e1ed0 !important;
 }
@@ -37,7 +37,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 .nav-link:hover {
-  margin-top: -5px;
+  transform: translate(0px, -10%);
   position: relative;
   content: '';
   border-top: 1px var(--primary-color) solid;
@@ -52,7 +52,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 .header .btn-primary:hover {
-  margin-top: -5px;
+  transform: translate(0px, -10%);
 }
 
 .hero button {
@@ -62,7 +62,14 @@ body {
   transition: 0.5s ease-in-out;
 }
 .hero button:hover {
-  letter-spacing: 3px;
+  transform: translate(0px, -15%);
+}
+
+nav img {
+  transition: 0.5s ease-in-out;
+}
+nav img:hover {
+  transform: translate(0px, -15%);
 }
 
 .title {
@@ -76,7 +83,7 @@ body {
   transition: 0.5s ease-in-out;
 }
 .ourWork img:hover {
-  transform: rotateX(360deg);
+  transform: translate(0px, -20%);
 }
 
 .ourService .card {
@@ -93,4 +100,23 @@ body {
 .ourProduction .card:hover {
   transform: scale(1.05);
   box-shadow: 0 1rem 3rem var(--secondary-color) !important;
+}
+.ourTeam img {
+  transition: 0.5s ease-in-out;
+}
+.ourTeam img:hover {
+  transform: translate(0px, -10%);
+}
+
+.sendBtn {
+  background: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  border: none;
+  transition: 0.5s ease-in-out;
+}
+.sendBtn:hover {
+  transform: translate(0px, -15%);
+}
+a {
+  text-decoration: none;
 }

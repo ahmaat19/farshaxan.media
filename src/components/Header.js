@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 
 const Header = () => {
   return (
-    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top'>
+    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top my-5'>
       <div class='container'>
         <a class='navbar-brand' href='#'>
           <img src={logo} alt='' width='60' height='50' />
@@ -47,12 +47,13 @@ const Header = () => {
               </a>
             </li>
             <li class='nav-item'>
-              <button
+              <a
                 class='btn btn-primary border-0 shadow-none fw-bold rounded-pill'
-                href='#'
+                href='http://budgetcalculator.pythonanywhere.com/'
+                target='blank'
               >
                 Get Quote
-              </button>
+              </a>
             </li>
           </ul>
         </div>
