@@ -3,10 +3,10 @@ import logo from '../images/logo.png'
 
 const Header = () => {
   return (
-    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top my-5'>
+    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top '>
       <div class='container'>
         <a class='navbar-brand' href='#'>
-          <img src={logo} alt='' width='60' height='50' />
+          <img src={logo} alt='' width='90' />
         </a>
         <button
           class='navbar-toggler'

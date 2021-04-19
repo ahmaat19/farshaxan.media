@@ -26,9 +26,9 @@ const Contact = () => {
       </p>
 
       <div class='row'>
-        <div className='col-md-6 col-12 text-center pt-4 '>
-          <div style={{ height: '100vh', width: '100%' }}>
-            {/* <GoogleMapReact
+        <div className='col-md-6 col-12 pt-4 '>
+          {/* <div style={{ height: '100vh', width: '100%' }}> */}
+          {/* <GoogleMapReact
               bootstrapURLKeys={{
                 key: 'AIzaSyA3zrMSPfxvo9h0pLUhLECOztG0h3cKfw4',
               }}
@@ -36,35 +36,35 @@ const Contact = () => {
               defaultZoom={zoom}
             /> */}
 
-            <h3 className='fw-light'>Head Office</h3>
-            <ul class='list-group list-group-flush text-center'>
-              <li class='list-group-item bg-transparent text-primary'>
-                <span className='text-secondary'>
-                  <FaMap />
-                </span>{' '}
-                Talex District, Mogadishu - Somalia.
-              </li>
-              <li class='list-group-item bg-transparent text-primary'>
-                <span className='text-secondary'>
-                  <FaPhone />
-                </span>{' '}
-                <a href='tel:+252614593819' className='text-primary'>
-                  +252 61 459 3819
-                </a>
-              </li>
-              <li class='list-group-item bg-transparent text-primary'>
-                <span className='text-secondary'>
-                  <FaEnvelope />
-                </span>{' '}
-                <a
-                  href='mailto:media.farshaxan@gmail.com'
-                  className='text-primary'
-                >
-                  media.farshaxan@gmail.com
-                </a>
-              </li>
-            </ul>
-          </div>
+          <h3 className='fw-light'>Head Office</h3>
+          <ul class='list-group list-group-flush'>
+            <li class='list-group-item bg-transparent text-primary'>
+              <span className='text-secondary'>
+                <FaMap />
+              </span>{' '}
+              Talex, Hodan District, Mogadishu - Somalia.
+            </li>
+            <li class='list-group-item bg-transparent text-primary'>
+              <span className='text-secondary'>
+                <FaPhone />
+              </span>{' '}
+              <a href='tel:+252614593819' className='text-primary'>
+                +252 61 459 3819
+              </a>
+            </li>
+            <li class='list-group-item bg-transparent text-primary'>
+              <span className='text-secondary'>
+                <FaEnvelope />
+              </span>{' '}
+              <a
+                href='mailto:media.farshaxan@gmail.com'
+                className='text-primary'
+              >
+                media.farshaxan@gmail.com
+              </a>
+            </li>
+          </ul>
+          {/* </div> */}
         </div>
         <div className='col-md-6 col-12 text-center pt-4'>
           <form>

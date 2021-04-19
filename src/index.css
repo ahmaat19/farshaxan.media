@@ -4,6 +4,7 @@
   --primary-color: #a8518f;
   --secondary-color: #fdce07;
   --dark-color: #1e1e1e;
+  --dark-blue-color: #173c6a;
 }
 
 body {
@@ -119,4 +120,42 @@ nav img:hover {
 }
 a {
   text-decoration: none;
+}
+.h-top {
+  position: relative;
+
+  z-index: 2;
+}
+.hero-header {
+  position: relative;
+  background-color: var(--dark-color);
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.h-back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  opacity: 0.8;
+  z-index: 1;
 }

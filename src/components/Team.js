@@ -1,4 +1,8 @@
-import React from 'react'
+import abdikani from '../images/abdikani.png'
+import abdishakur from '../images/abdishakur.jpeg'
+import ramla from '../images/ramla.jpg'
+import iman from '../images/iman.jpg'
+import unknown from '../images/unknown.jpg'
 
 const Team = () => {
   return (
@@ -16,16 +20,14 @@ const Team = () => {
         <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/02/qurux2-scaled-300x300.jpg'
+              src={abdikani}
               alt='consultation'
               className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
             />
             <div class='card-body'>
-              <div class='card-title'>Mazhar Illahi </div>
+              <div class='card-title'>Abdikani Abukar Samow </div>
               <div class='card-text'>
-                <p className='text-primary'>
-                  Digital Board & Menu Expert (freelance)
-                </p>
+                <p className='text-primary'>Media Technician</p>
               </div>
             </div>
           </div>
@@ -34,14 +36,14 @@ const Team = () => {
         <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-21-at-2.10.45-PM-300x300.jpeg'
+              src={abdishakur}
               alt='consultation'
               className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
             />
             <div class='card-body'>
               <div class='card-title'>Abdishakur Dhaqane </div>
               <div class='card-text'>
-                <p className='text-primary'>Videographer & Photographer</p>
+                <p className='text-primary'>Cameraman</p>
               </div>
             </div>
           </div>
@@ -50,84 +52,46 @@ const Team = () => {
         <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/RAMLA-1-scaled-300x300.jpg'
+              src={unknown}
+              alt='consultation'
+              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+            />
+            <div class='card-body'>
+              <div class='card-title'>Ikram Abdirizak Mohamed </div>
+              <div class='card-text'>
+                <p className='text-primary'>Sales Assistance</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+          <div class='card bg-transparent border-0 text-center'>
+            <img
+              src={iman}
+              alt='consultation'
+              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+            />
+            <div class='card-body'>
+              <div class='card-title'>Iman Osman Mohamed </div>
+              <div class='card-text'>
+                <p className='text-primary'>Sales & Marketing Manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+          <div class='card bg-transparent border-0 text-center'>
+            <img
+              src={ramla}
               alt='consultation'
               className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
             />
             <div class='card-body'>
               <div class='card-title'>Ramla Abdulkadir Mohamud </div>
               <div class='card-text'>
-                <p className='text-primary'>
-                  Social Media expert & Graphic Designer
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
-          <div class='card bg-transparent border-0 text-center'>
-            <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/NIMCA-scaled-300x300.jpg'
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
-            <div class='card-body'>
-              <div class='card-title'>Nimco Sayid Ahmed </div>
-              <div class='card-text'>
-                <p className='text-primary'>Out-of-home media specialist</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
-          <div class='card bg-transparent border-0 text-center'>
-            <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/NIMCA-scaled-300x300.jpg'
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
-            <div class='card-body'>
-              <div class='card-title'>Edna Abdirashid </div>
-              <div class='card-text'>
-                <p className='text-primary'>
-                  Advertising character (freelance){' '}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
-          <div class='card bg-transparent border-0 text-center'>
-            <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/NIMCA-scaled-300x300.jpg'
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
-            <div class='card-body'>
-              <div class='card-title'>Idil Abdurahman </div>
-              <div class='card-text'>
-                <p className='text-primary'>Food Artist (freelance)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
-          <div class='card bg-transparent border-0 text-center'>
-            <img
-              src='https://www.farshaxan.media/wp-content/uploads/2021/01/NIMCA-scaled-300x300.jpg'
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
-            <div class='card-body'>
-              <div class='card-title'>Nasiib Ali Abdi </div>
-              <div class='card-text'>
-                <p className='text-primary'>
-                  Advertising character (freelance){' '}
-                </p>
+                <p className='text-primary'>Social Media Specialist</p>
               </div>
             </div>
           </div>
