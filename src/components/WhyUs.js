@@ -3,7 +3,7 @@ import why from '../images/why.svg'
 
 const WhyUs = () => {
   return (
-    <div className='whoAreWe py-5 my-5 container' id='about-us'>
+    <div className='whoAreWe py-5  container' id='about-us'>
       <h1 class='display1 title'>Why Us?</h1>
       <div class='row pt-5'>
         <div class='col-md-6 col-12 my-auto'>

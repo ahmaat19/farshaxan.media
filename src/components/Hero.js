@@ -16,22 +16,19 @@ const Hero = () => {
         <source src={video} type='video/mp4' />
       </video>
 
-      <div className='d-flex justify-content-center align-items-center hero py-5 my-4 container h-top'>
-        <div className='row '>
-          <div className='col-md-6 col-12 my-auto'>
-            <h1 className='display-1 fw-bold'>Is Sheeg Aan Ku Shaacinnee</h1>
-            <p className='pb-5 text-light' style={{ letterSpacing: 4 }}>
-              Our motto is to fulfill customer demand by making them satisfied
-              with growing their business.
-            </p>
-            <button className='btn btn-primary shadow-none  fw-bold py-2 px-4 shadow-lg rounded-pill'>
-              Learn More <FaArrowCircleDown />
-            </button>
-          </div>
-
-          <div className='col-md-6 col-12'>
-            <img src={marketing} alt='farshaxan' className='img-fluid' />
-          </div>
+      <div className='d-flex justify-content-center vh-100 align-items-center hero py-5 my-4s container h-top'>
+        <div className='text-center'>
+          <h1 className='display-1 fw-bold'>Is sheeg aan ku shaacinnee</h1>
+          <p className='pb-5 text-light' style={{ letterSpacing: 4 }}>
+            Our motto is to fulfill customer demand by making them satisfied
+            with growing their business.
+          </p>
+          <a
+            href='#about-us'
+            className='btn btn-primary border-0 shadow-none  fw-bold py-2 px-4 shadow-lg rounded-pill'
+          >
+            Learn More <FaArrowCircleDown />
+          </a>
         </div>
       </div>
     </header>

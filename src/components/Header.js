@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 
 const Header = () => {
   return (
-    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top '>
+    <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top mb-5 '>
       <div class='container'>
         <a class='navbar-brand' href='#'>
           <img src={logo} alt='' width='90' />

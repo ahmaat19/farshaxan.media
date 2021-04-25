@@ -1,22 +1,17 @@
-import { useState } from 'react'
-import GoogleMapReact from 'google-map-react'
 import {
   FaEnvelope,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
   FaMap,
   FaPaperPlane,
   FaPhone,
-  FaShareAlt,
+  FaTwitter,
 } from 'react-icons/fa'
+import footer_logo from '../images/footer_logo.PNG'
+import qrcode from '../images/qrcode.png'
 
 const Contact = () => {
-  const [zoom, setZoom] = useState(11)
-  const [center, setCenter] = useState({
-    center: {
-      lat: 2.03174,
-      lng: 45.322008,
-    },
-  })
-
   return (
     <div className='contact py-5 my-5 container' id='contact-us'>
       <h1 class='display1 title'>Get In Touch</h1>
@@ -27,22 +22,14 @@ const Contact = () => {
 
       <div class='row'>
         <div className='col-md-6 col-12 pt-4 '>
-          {/* <div style={{ height: '100vh', width: '100%' }}> */}
-          {/* <GoogleMapReact
-              bootstrapURLKeys={{
-                key: 'AIzaSyA3zrMSPfxvo9h0pLUhLECOztG0h3cKfw4',
-              }}
-              defaultCenter={center.center}
-              defaultZoom={zoom}
-            /> */}
-
+          <img src={footer_logo} alt='footer logo' className='img-fluid w-25' />
           <h3 className='fw-light'>Head Office</h3>
           <ul class='list-group list-group-flush'>
             <li class='list-group-item bg-transparent text-primary'>
               <span className='text-secondary'>
                 <FaMap />
               </span>{' '}
-              Talex, Hodan District, Mogadishu - Somalia.
+              Daarta Bunka, Talex, Hodan District, Mogadishu - Somalia.
             </li>
             <li class='list-group-item bg-transparent text-primary'>
               <span className='text-secondary'>
@@ -64,7 +51,37 @@ const Contact = () => {
               </a>
             </li>
           </ul>
-          {/* </div> */}
+          <div className='btn-group mt-5'>
+            <a
+              href='https://facebook.com'
+              target='blank'
+              className='mx-3 text-secondary'
+            >
+              <FaFacebook className='fs-2 ' />
+            </a>
+            <a
+              href='https://instagram.com'
+              target='blank'
+              className='mx-3 text-secondary'
+            >
+              <FaInstagram className='fs-2 ' />
+            </a>
+            <a
+              href='https://linkedin.com'
+              target='blank'
+              className='mx-3 text-secondary'
+            >
+              <FaLinkedin className='fs-2 ' />
+            </a>
+            <a
+              href='https://twitter.com'
+              target='blank'
+              className='mx-3 text-secondary'
+            >
+              <FaTwitter className='fs-2 ' />
+            </a>
+          </div>
+          <img src={qrcode} alt='qr-code' className='img-fluid w-25' />
         </div>
         <div className='col-md-6 col-12 text-center pt-4'>
           <form>

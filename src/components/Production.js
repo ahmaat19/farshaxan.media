@@ -2,7 +2,7 @@ import React from 'react'
 
 const Production = () => {
   return (
-    <div className='ourProduction py-5 my-5 container' id='our-productions'>
+    <div className='ourProduction py-5 container' id='our-productions'>
       <h1 class='display1 title'>Our Production</h1>
       <div class='row gy-5 pt-4'>
         <div class='col-lg-4 col-md-6 col-sm-12 col-12'>

@@ -11,15 +11,33 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className='App'>
-      <Header />
-      <Hero />
-      <WhoAreWe />
-      <WhyUs />
-      <Client />
-      <Service />
-      <Production />
-      <Team />
-      <Contact />
+      <div className='bg-dark-blue'>
+        <Header />
+        <Hero />
+      </div>
+
+      <div class='bg-dark-blue whoarewe-top'>
+        <WhoAreWe />
+      </div>
+
+      <div className='bg-dark-blue'>
+        <WhyUs />
+      </div>
+      <div className='bg-dark-blue'>
+        <Production />
+      </div>
+      <div className='bg-dark-blue'>
+        <Service />
+      </div>
+      <div className='bg-dark-blue'>
+        <Client />
+      </div>
+      <div className='bg-dark-blue'>
+        <Team />
+      </div>
+      <div class='dark-blue'>
+        <Contact />
+      </div>
     </div>
   )
 }

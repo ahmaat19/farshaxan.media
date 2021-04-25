@@ -13,7 +13,7 @@ import screen from '../images/screen.png'
 
 const Service = () => {
   return (
-    <div className='ourService py-5 my-5 container' id='our-services'>
+    <div className='ourService py-5 container' id='our-services'>
       <h1 class='display1 title'>Our Services</h1>
       <p className='text-primary text-center pt-3'>
         Our marketing solution services help you reach your sales target, <br />
