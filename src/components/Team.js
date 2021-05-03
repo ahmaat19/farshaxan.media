@@ -17,7 +17,7 @@ const Team = () => {
       </p>
 
       <div class='row gy-5 py-5'>
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
               src={iman}
@@ -33,7 +33,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
               src={ramla}
@@ -49,7 +49,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
               src={ikram}
@@ -65,7 +65,7 @@ const Team = () => {
           </div>
         </div>
 
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
               src={abdishakur}
@@ -80,7 +80,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div class='col-lg-3 col-md-4 col-sm-6 col-12 mx-auto'>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
             <img
               src={abdikani}

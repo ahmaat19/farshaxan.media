@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 :root {
-  --primary-color: #a8518f;
+  --primary-color: #fff;
+  --primary-brand-color: #a8518f;
   --secondary-color: #fdce07;
   --dark-color: #1e1e1e;
   --dark-blue-color: #173c6a;
@@ -15,7 +16,7 @@ body {
   font-family: 'Hammersmith One', sans-serif !important;
 }
 .btn-primary {
-  background: var(--primary-color) !important;
+  background: var(--primary-brand-color) !important;
   color: var(--secondary-color) !important;
 }
 .navbar {
@@ -56,7 +57,7 @@ nav {
   color: var(--secondary-color) !important;
 }
 .header .btn-primary {
-  background: var(--primary-color) !important;
+  background: var(--primary-brand-color) !important;
   color: var(--secondary-color) !important;
   border: none;
   transition: 0.5s ease-in-out;
@@ -119,7 +120,7 @@ nav img:hover {
 }
 
 .sendBtn {
-  background: var(--primary-color) !important;
+  background: var(--primary-brand-color) !important;
   color: var(--secondary-color) !important;
   border: none;
   transition: 0.5s ease-in-out;

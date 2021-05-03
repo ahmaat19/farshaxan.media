@@ -12,7 +12,7 @@ import hiddasoor from '../images/hiddasoor.png'
 
 const Client = () => {
   return (
-    <div className='ourWork py-5 container' id='our-work'>
+    <div className='ourWork pb-5  container' id='our-work'>
       <h1 class='display1 title'>Our Clients</h1>
       <p className='text-primary text-center pt-3'>Meet our top clients</p>
 

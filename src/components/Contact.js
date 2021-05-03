@@ -29,14 +29,24 @@ const Contact = () => {
               <span className='text-secondary'>
                 <FaMap />
               </span>{' '}
-              Daarta Bunka, Talex, Hodan District, Mogadishu - Somalia.
+              <a
+                target='blank'
+                href='https://maps.google.com/maps?q=2.035447359085083%2C45.311588287353516&z=17&hl=en'
+                className='text-primary'
+              >
+                Daarta Bunka, Talex, Hodan District, Mogadishu - Somalia.
+              </a>
             </li>
             <li class='list-group-item bg-transparent text-primary'>
               <span className='text-secondary'>
                 <FaPhone />
               </span>{' '}
-              <a href='tel:+252614593819' className='text-primary'>
-                +252 61 459 3819
+              <a
+                target='blank'
+                href='tel:+252614950432'
+                className='text-primary'
+              >
+                +252 61 495 0432
               </a>
             </li>
             <li class='list-group-item bg-transparent text-primary'>
@@ -44,10 +54,11 @@ const Contact = () => {
                 <FaEnvelope />
               </span>{' '}
               <a
-                href='mailto:media.farshaxan@gmail.com'
+                target='blank'
+                href='mailto:info@farshaxan.media'
                 className='text-primary'
               >
-                media.farshaxan@gmail.com
+                info@farshaxan.media
               </a>
             </li>
           </ul>

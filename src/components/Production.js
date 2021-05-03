@@ -13,10 +13,11 @@ const Production = () => {
               className='card-img-fluid card-img-top  mx-auto'
             />
             <div class='card-body'>
-              <div class='card-title'> Digital Menu Animation </div>
+              <div class='card-title'> Digital Menu </div>
               <div class='card-text'>
                 <p className='text-primary'>
-                  Food presentation displays and smart menu development
+                  Food presentation displays, smart menu development & QR code
+                  development
                 </p>
               </div>
             </div>
@@ -31,10 +32,11 @@ const Production = () => {
               className='card-img-fluid card-img-top  mx-auto'
             />
             <div class='card-body'>
-              <div class='card-title'> Digital Board Contents </div>
+              <div class='card-title'> Digital Board </div>
               <div class='card-text'>
                 <p className='text-primary'>
-                  Schools, Universities, and hospital smart board contents
+                  Schools, Universities, hospital smart board contents, & beauty
+                  salon
                 </p>
               </div>
             </div>

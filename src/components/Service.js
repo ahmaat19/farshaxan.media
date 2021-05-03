@@ -49,7 +49,10 @@ const Service = () => {
               className='card-img-fluid card-img-top w-25 mx-auto'
             />
             <div class='card-body'>
-              <div class='card-title'> Marketing Consultation </div>
+              <div class='card-title'>
+                {' '}
+                Marketing Consultation & Content Creation{' '}
+              </div>
               <div class='card-text'>
                 <p className='text-primary'>
                   Consulting the marketing strategy and video strategy
@@ -121,21 +124,21 @@ const Service = () => {
                 <ul class='list-group list-group-flush text-start'>
                   <li class='list-group-item bg-transparent text-primary'>
                     <span className='text-secondary'>
-                      <FaFacebook />
+                      <FaCheckCircle />
                     </span>{' '}
-                    Facebook Page Management
+                    Social Media Strategy Development
                   </li>
                   <li class='list-group-item bg-transparent text-primary'>
                     <span className='text-secondary'>
-                      <FaInstagram />
+                      <FaCheckCircle />
                     </span>{' '}
-                    Instagram Page Management
+                    Social Media Management Service
                   </li>
                   <li class='list-group-item bg-transparent text-primary'>
                     <span className='text-secondary'>
-                      <FaLinkedin />
+                      <FaCheckCircle />
                     </span>{' '}
-                    Linkedin Page Management
+                    Social Media Analysis & Reporting
                   </li>
                 </ul>
               </div>
