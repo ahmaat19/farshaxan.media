@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload'
 import logo from '../images/logo.png'
 
 const Header = () => {
@@ -6,7 +7,9 @@ const Header = () => {
     <nav class='navbar navbar-expand-lg bg-transparent header shadow-lg sticky-top mb-5 '>
       <div class='container'>
         <a class='navbar-brand' href='#'>
-          <img src={logo} alt='' width='90' />
+          <LazyLoad height={200} once={true}>
+            <img src={logo} alt='' width='90' />
+          </LazyLoad>
         </a>
         <button
           class='navbar-toggler'

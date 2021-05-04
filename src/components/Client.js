@@ -18,13 +18,19 @@ const Client = () => {
 
       <div class='row gy-5 mx-auto pt-5'>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
-          <img src={shampoo} alt='clients' className='img-fluid' />
+          <img src={aragsan} alt='clients' className='img-fluid' />
         </div>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
-          <img src={sada} alt='clients' className='img-fluid' />
+          <img src={laas} alt='clients' className='img-fluid' />
+        </div>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
+          <img src={banadiria} alt='clients' className='img-fluid' />
         </div>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
           <img src={castelo} alt='clients' className='img-fluid' />
+        </div>
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
+          <img src={sada} alt='clients' className='img-fluid' />
         </div>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
           <img src={hiddasoor} alt='clients' className='img-fluid' />
@@ -32,23 +38,17 @@ const Client = () => {
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
           <img src={sultan} alt='clients' className='img-fluid' />
         </div>
+
+        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
+          <img src={shampoo} alt='clients' className='img-fluid' />
+        </div>
+
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
           <img src={somali} alt='clients' className='img-fluid' />
         </div>
 
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
-          <img src={laas} alt='clients' className='img-fluid' />
-        </div>
-
-        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
           <img src={samira} alt='clients' className='img-fluid' />
-        </div>
-
-        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
-          <img src={aragsan} alt='clients' className='img-fluid' />
-        </div>
-        <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto m-2  '>
-          <img src={banadiria} alt='clients' className='img-fluid' />
         </div>
       </div>
     </div>

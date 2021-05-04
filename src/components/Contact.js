@@ -8,6 +8,7 @@ import {
   FaPhone,
   FaTwitter,
 } from 'react-icons/fa'
+import LazyLoad from 'react-lazyload'
 import footer_logo from '../images/footer_logo.PNG'
 import qrcode from '../images/qrcode.png'
 
@@ -22,7 +23,13 @@ const Contact = () => {
 
       <div class='row'>
         <div className='col-md-6 col-12 pt-4 '>
-          <img src={footer_logo} alt='footer logo' className='img-fluid w-25' />
+          <LazyLoad height={200} once={true}>
+            <img
+              src={footer_logo}
+              alt='footer logo'
+              className='img-fluid w-25'
+            />
+          </LazyLoad>
           <h3 className='fw-light'>Head Office</h3>
           <ul class='list-group list-group-flush'>
             <li class='list-group-item bg-transparent text-primary'>
@@ -91,8 +98,10 @@ const Contact = () => {
             >
               <FaTwitter className='fs-2 ' />
             </a>
+            <LazyLoad height={200} once={true}>
+              <img src={qrcode} alt='qr-code' className='img-fluid w-25' />
+            </LazyLoad>
           </div>
-          <img src={qrcode} alt='qr-code' className='img-fluid w-25' />
         </div>
         <div className='col-md-6 col-12 text-center pt-4'>
           <form>

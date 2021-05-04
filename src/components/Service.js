@@ -10,6 +10,7 @@ import service from '../images/service.svg'
 import socialmedia from '../images/socialmedia.png'
 import consultation from '../images/consultation.png'
 import screen from '../images/screen.png'
+import LazyLoad from 'react-lazyload'
 
 const Service = () => {
   return (
@@ -23,7 +24,9 @@ const Service = () => {
 
       <div class='row'>
         <div className='col-md-6 col-12 text-center'>
-          <img src={service} alt='service' className='img-fluid w-75' />
+          <LazyLoad height={200} once={true}>
+            <img src={service} alt='service' className='img-fluid w-75' />
+          </LazyLoad>
         </div>
         <div className='col-md-6 col-12 my-auto'>
           <p className='text-secondary'>
@@ -43,11 +46,13 @@ const Service = () => {
       <div class='row gy-5 py-5'>
         <div class='col-md-4 col-12'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={consultation}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-25 mx-auto'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={consultation}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-25 mx-auto'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'> Marketing Consultation</div>
               <div class='card-text'>
@@ -63,11 +68,13 @@ const Service = () => {
 
         <div class='col-md-4 col-12'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={screen}
-              alt='screen'
-              className='card-img-fluid card-img-top w-25 mx-auto'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={screen}
+                alt='screen'
+                className='card-img-fluid card-img-top w-25 mx-auto'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'> Screen Advertisement Platform </div>
               <div class='card-text'>
@@ -110,11 +117,13 @@ const Service = () => {
 
         <div class='col-md-4 col-12'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={socialmedia}
-              alt='social media'
-              className='card-img-fluid card-img-top w-25 mx-auto'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={socialmedia}
+                alt='social media'
+                className='card-img-fluid card-img-top w-25 mx-auto'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'> Social Media Management </div>
               <div class='card-text'>

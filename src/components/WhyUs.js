@@ -1,3 +1,4 @@
+import LazyLoad from 'react-lazyload'
 import { FaCheckDouble } from 'react-icons/fa'
 import why from '../images/why.svg'
 
@@ -46,7 +47,9 @@ const WhyUs = () => {
           </ul>
         </div>
         <div class='col-md-6 col-12 text-center'>
-          <img src={why} alt='who are we' className='img-fluid w-100' />
+          <LazyLoad height={200} once={true}>
+            <img src={why} alt='who are we' className='img-fluid w-100' />
+          </LazyLoad>
         </div>
       </div>
     </div>

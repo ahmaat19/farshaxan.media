@@ -3,6 +3,7 @@ import abdishakur from '../images/abdishakur.jpeg'
 import ramla from '../images/ramla.jpg'
 import iman from '../images/iman.jpg'
 import ikram from '../images/ikram.jpeg'
+import LazyLoad from 'react-lazyload'
 
 const Team = () => {
   return (
@@ -19,11 +20,13 @@ const Team = () => {
       <div class='row gy-5 py-5'>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={iman}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={iman}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'>Iman Osman Mohamed </div>
               <div class='card-text'>
@@ -35,11 +38,13 @@ const Team = () => {
 
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={ramla}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={ramla}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'>Ramla Abdulkadir Mohamud </div>
               <div class='card-text'>
@@ -51,11 +56,13 @@ const Team = () => {
 
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={ikram}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={ikram}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'>Ikram Abdirizak Mohamed </div>
               <div class='card-text'>
@@ -67,11 +74,13 @@ const Team = () => {
 
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={abdishakur}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={abdishakur}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'>Abdishakur Dhaqane </div>
               <div class='card-text'>
@@ -82,11 +91,13 @@ const Team = () => {
         </div>
         <div class='col-lg-2 col-md-4 col-sm-6 col-12 mx-auto'>
           <div class='card bg-transparent border-0 text-center'>
-            <img
-              src={abdikani}
-              alt='consultation'
-              className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
-            />
+            <LazyLoad height={200} once={true}>
+              <img
+                src={abdikani}
+                alt='consultation'
+                className='card-img-fluid card-img-top w-50 mx-auto rounded-pill'
+              />
+            </LazyLoad>
             <div class='card-body'>
               <div class='card-title'>Abdikani Abukar Samow </div>
               <div class='card-text'>
