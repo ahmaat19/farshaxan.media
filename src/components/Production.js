@@ -1,4 +1,6 @@
 import React from 'react'
+import corporate from '../images/corporate.jpeg'
+import photographing from '../images/photographing.jpeg'
 
 const Production = () => {
   return (
@@ -46,8 +48,8 @@ const Production = () => {
         <div class='col-lg-4 col-md-6 col-sm-12 col-12'>
           <div class='card bg-transparent border-0 text-center shadow-lg'>
             <img
-              src='https://www.nyip.edu/media/zoo/images/how-much-money-do-photographers-make_ccfeb3fadeb924ae6e73a1f121ccd774.jpg'
-              alt='consultation'
+              src={photographing}
+              alt='photographing'
               className='card-img-fluid card-img-top  mx-auto'
             />
             <div class='card-body'>
@@ -65,8 +67,8 @@ const Production = () => {
         <div class='col-lg-4 col-md-6 col-sm-12 col-12'>
           <div class='card bg-transparent border-0 text-center shadow-lg'>
             <img
-              src='https://s3.amazonaws.com/images.productionhub.com/posts/8649ada69b_k3ndm4mdaw.jpg'
-              alt='consultation'
+              src={corporate}
+              alt='corporate'
               className='card-img-fluid card-img-top  mx-auto'
             />
             <div class='card-body'>

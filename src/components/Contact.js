@@ -64,28 +64,28 @@ const Contact = () => {
           </ul>
           <div className='btn-group mt-5'>
             <a
-              href='https://facebook.com'
+              href='https://www.facebook.com/FarshaxanMedia1'
               target='blank'
               className='mx-3 text-secondary'
             >
               <FaFacebook className='fs-2 ' />
             </a>
             <a
-              href='https://instagram.com'
+              href='https://www.instagram.com/farshaxan.media/'
               target='blank'
               className='mx-3 text-secondary'
             >
               <FaInstagram className='fs-2 ' />
             </a>
             <a
-              href='https://linkedin.com'
+              href='https://www.linkedin.com/company/farshaxan-media/'
               target='blank'
               className='mx-3 text-secondary'
             >
               <FaLinkedin className='fs-2 ' />
             </a>
             <a
-              href='https://twitter.com'
+              href='https://twitter.com/FarshaxanMedia'
               target='blank'
               className='mx-3 text-secondary'
             >
