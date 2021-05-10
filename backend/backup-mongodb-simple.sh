@@ -1,0 +1,2 @@
+docker exec -t ${CONTAINER_NAME} mongodump --out /data/db/${DATABASE_NAME}-backup-${TIMESTAMP} --db ${DATABASE_NAME}
+docker cp ${CONTAINER_NAME}:/data/db/${DATABASE_NAME}-backup-${TIMESTAMP} ${BACKUP_LOCATION}
